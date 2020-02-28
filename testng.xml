@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Sauce Demo Test Suite" verbose="1" parallel="methods" thread-count="50" configfailurepolicy="continue" data-provider-thread-count="1">
+
+    <test name="All Packages Test">
+        <packages>
+            <package name="com.saucelabs.example.features"/>
+        </packages>
+    </test>
+</suite>
